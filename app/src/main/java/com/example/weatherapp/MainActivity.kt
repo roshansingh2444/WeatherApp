@@ -13,6 +13,7 @@ import android.os.Bundle
 import android.os.Looper
 import android.provider.Settings
 import android.util.Log
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -212,6 +213,7 @@ class MainActivity : AppCompatActivity() {
 
                         /** The de-serialized response body of a successful response. */
                         val weatherList: WeatherResponse = response.body()
+                        setupUI(weatherList)
                         Log.i("Response Result", "$weatherList")
                     } else {
                         // If the response is not success then we check the response code.
@@ -257,5 +259,32 @@ class MainActivity : AppCompatActivity() {
         if(mProgressDialog != null){
             mProgressDialog!!.dismiss()
         }
+    }
+
+    private fun setupUI(weatherList: WeatherResponse){
+        var tv_Main : TextView
+        var tv_main_description : TextView
+        var tv_temp : TextView
+
+        for(i in weatherList.weather.indices){
+            Log.i("Weather Name", weatherList.weather.toString())
+
+            tv_Main = findViewById(R.id.tv_main)
+            tv_Main.text = weatherList.weather[i].main
+
+            tv_main_description = findViewById(R.id.tv_main_description)
+            tv_main_description.text = weatherList.weather[i].description
+
+            tv_temp = findViewById(R.id.tv_temp)
+            tv_temp.text = weatherList.main.temp.toString() + getUnit(application.resources.configuration.locales.toString())
+
+        }
+    }
+    private fun getUnit(value: String) : String?{
+        var value = "°C"
+        if("US" == value || "LR" == value || "MM" == value){
+            value ="°F"
+        }
+        return value
     }
 }
