@@ -5,9 +5,9 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="21"
+8        android:minSdkVersion="24"
 8-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="29" />
+9        android:targetSdkVersion="33" />
 9-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml
 10
 11    <!-- To access the Internet -->
@@ -36,55 +36,56 @@
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.2.0] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\6c0044a99f91be826ffee75cdd447424\core-1.2.0\AndroidManifest.xml:24:18-86
 23        android:debuggable="true"
-24        android:icon="@mipmap/ic_launcher"
-24-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:16:9-43
-25        android:label="@string/app_name"
-25-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:17:9-41
-26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:18:9-54
-27        android:supportsRtl="true"
-27-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:19:9-35
-28        android:testOnly="true"
-29        android:theme="@style/AppTheme" >
-29-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:20:9-40
-30        <activity
-30-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:22:9-30:20
-31            android:name="com.weatherapp.activities.MainActivity"
-31-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:23:13-52
-32            android:screenOrientation="portrait" >
-32-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:24:13-49
-33            <intent-filter>
-33-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:25:13-29:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:26:17-69
-34-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:26:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:28:17-77
-36-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:28:27-74
-37            </intent-filter>
-38        </activity>
-39        <activity
-39-->[com.karumi:dexter:6.0.1] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\e807e5b0707e0b889f240d287491c121\jetified-dexter-6.0.1\AndroidManifest.xml:27:9-29:72
-40            android:name="com.karumi.dexter.DexterActivity"
-40-->[com.karumi:dexter:6.0.1] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\e807e5b0707e0b889f240d287491c121\jetified-dexter-6.0.1\AndroidManifest.xml:28:13-60
-41            android:theme="@style/Dexter.Internal.Theme.Transparent" />
-41-->[com.karumi:dexter:6.0.1] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\e807e5b0707e0b889f240d287491c121\jetified-dexter-6.0.1\AndroidManifest.xml:29:13-69
-42        <activity
-42-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\6d8b2bae5849f16ef4cabde6b8ec9476\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-43            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-43-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\6d8b2bae5849f16ef4cabde6b8ec9476\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-44            android:exported="false"
-44-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\6d8b2bae5849f16ef4cabde6b8ec9476\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-45            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-45-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\6d8b2bae5849f16ef4cabde6b8ec9476\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-46
-47        <meta-data
-47-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\bc13f0acd75a988cccadd5bbe939939f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-48            android:name="com.google.android.gms.version"
-48-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\bc13f0acd75a988cccadd5bbe939939f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-49            android:value="@integer/google_play_services_version" />
-49-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\bc13f0acd75a988cccadd5bbe939939f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-50    </application>
-51
-52</manifest>
+24        android:extractNativeLibs="false"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:16:9-43
+26        android:label="@string/app_name"
+26-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:17:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:18:9-54
+28        android:supportsRtl="true"
+28-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:19:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:20:9-40
+31        <activity
+31-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:22:9-30:20
+32            android:name="com.weatherapp.activities.MainActivity"
+32-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:23:13-52
+33            android:screenOrientation="portrait" >
+33-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:24:13-49
+34            <intent-filter>
+34-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:25:13-29:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:26:17-69
+35-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:26:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:28:17-77
+37-->C:\D\Code\AndroidStudio\weatherApp\app\src\main\AndroidManifest.xml:28:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->[com.karumi:dexter:6.0.1] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\e807e5b0707e0b889f240d287491c121\jetified-dexter-6.0.1\AndroidManifest.xml:27:9-29:72
+41            android:name="com.karumi.dexter.DexterActivity"
+41-->[com.karumi:dexter:6.0.1] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\e807e5b0707e0b889f240d287491c121\jetified-dexter-6.0.1\AndroidManifest.xml:28:13-60
+42            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+42-->[com.karumi:dexter:6.0.1] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\e807e5b0707e0b889f240d287491c121\jetified-dexter-6.0.1\AndroidManifest.xml:29:13-69
+43        <activity
+43-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\6d8b2bae5849f16ef4cabde6b8ec9476\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+44            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+44-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\6d8b2bae5849f16ef4cabde6b8ec9476\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+45            android:exported="false"
+45-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\6d8b2bae5849f16ef4cabde6b8ec9476\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+46            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+46-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\6d8b2bae5849f16ef4cabde6b8ec9476\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+47
+48        <meta-data
+48-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\bc13f0acd75a988cccadd5bbe939939f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+49            android:name="com.google.android.gms.version"
+49-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\bc13f0acd75a988cccadd5bbe939939f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+50            android:value="@integer/google_play_services_version" />
+50-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rosha\.gradle\caches\transforms-2\files-2.1\bc13f0acd75a988cccadd5bbe939939f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+51    </application>
+52
+53</manifest>

@@ -253,6 +253,8 @@ class MainActivity : AppCompatActivity() {
                     retrofit: Retrofit
                 ) {
 
+                    println("--------\n$response\n---------")
+
                     // Check weather the response is success or not.
                     if (response.isSuccess) {
 
@@ -266,6 +268,8 @@ class MainActivity : AppCompatActivity() {
                         // START
                         // Here we have converted the model class in to Json String to store it in the SharedPreferences.
                         val weatherResponseJsonString = Gson().toJson(weatherList)
+                        println("--------\n$weatherResponseJsonString\n---------")
+
                         // Save the converted string to shared preferences
                         val editor = mSharedPreferences.edit()
                         editor.putString(Constants.WEATHER_RESPONSE_DATA, weatherResponseJsonString)
@@ -343,10 +347,14 @@ class MainActivity : AppCompatActivity() {
         val weatherResponseJsonString =
             mSharedPreferences.getString(Constants.WEATHER_RESPONSE_DATA, "")
 
+        println("Checking constant var for weather response data & $weatherResponseJsonString")
+
         if (!weatherResponseJsonString.isNullOrEmpty()) {
 
             val weatherList =
                 Gson().fromJson(weatherResponseJsonString, WeatherResponse::class.java)
+
+            println("---------------$weatherList-----------------")
 
             // For loop to get the required data. And all are populated in the UI.
             for (z in weatherList.weather.indices) {

@@ -4,12 +4,8 @@
         "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\src\\main\\res\\drawable\\storm.xml"
     },
     {
-        "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_refresh_24dp.png.flat",
-        "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_refresh_24dp.png"
-    },
-    {
-        "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_refresh_24dp.png.flat",
-        "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_refresh_24dp.png"
+        "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -24,32 +20,20 @@
         "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\src\\main\\res\\layout\\dialog_custom_progress.xml"
     },
     {
-        "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_refresh_24dp.png.flat",
-        "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_refresh_24dp.png"
-    },
-    {
         "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wind.xml.flat",
         "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\src\\main\\res\\drawable\\wind.xml"
-    },
-    {
-        "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_morning.xml.flat",
         "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\src\\main\\res\\drawable\\morning.xml"
     },
     {
+        "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rain.xml.flat",
         "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\src\\main\\res\\drawable\\rain.xml"
-    },
-    {
-        "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_refresh_24dp.png.flat",
-        "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_refresh_24dp.png"
-    },
-    {
-        "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_refresh_24dp.xml.flat",
-        "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_refresh_24dp.xml"
     },
     {
         "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cloud.xml.flat",
@@ -120,6 +104,10 @@
         "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_refresh_24dp.xml.flat",
+        "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\src\\main\\res\\drawable\\ic_refresh_24dp.xml"
+    },
+    {
         "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -132,23 +120,11 @@
         "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\src\\main\\res\\drawable\\location.xml"
     },
     {
-        "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_refresh_24dp.png.flat",
-        "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_refresh_24dp.png"
-    },
-    {
         "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_snowflake.xml.flat",
         "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\src\\main\\res\\drawable\\snowflake.xml"
     },
     {
-        "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_refresh_24dp.png.flat",
-        "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_refresh_24dp.png"
-    },
-    {
         "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sunrise.xml.flat",
         "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\src\\main\\res\\drawable\\sunrise.xml"
-    },
-    {
-        "merged": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\D\\Code\\AndroidStudio\\weatherApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     }
 ]
