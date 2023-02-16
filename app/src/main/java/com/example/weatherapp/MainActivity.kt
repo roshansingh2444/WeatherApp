@@ -2,6 +2,7 @@ package com.example.weatherapp
 
 import android.Manifest
 import android.annotation.SuppressLint
+import android.app.Dialog
 import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.Intent
@@ -31,6 +32,8 @@ class MainActivity : AppCompatActivity() {
 
     // A fused location client variable which is further user to get the user's current location
     private lateinit var mFusedLocationClient: FusedLocationProviderClient
+
+    private var mProgressDialog: Dialog? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -146,7 +149,7 @@ class MainActivity : AppCompatActivity() {
             val longitude = mLastLocation.longitude
             Log.i("Current Longitude", "$longitude")
 
-          
+
             getLocationWeatherDetails(latitude, longitude)
         }
     }
@@ -192,6 +195,7 @@ class MainActivity : AppCompatActivity() {
             val listCall: Call<WeatherResponse> = service.getWeather(
                 latitude, longitude, Constants.METRIC_UNIT, Constants.APP_ID
             )
+            showCustomProgressDialog()
 
             // Callback methods are executed using the Retrofit callback executor.
             listCall.enqueue(object : Callback<WeatherResponse> {
@@ -203,6 +207,8 @@ class MainActivity : AppCompatActivity() {
 
                     // Check weather the response is success or not.
                     if (response.isSuccess) {
+
+                        hideProgressDialog()
 
                         /** The de-serialized response body of a successful response. */
                         val weatherList: WeatherResponse = response.body()
@@ -226,6 +232,7 @@ class MainActivity : AppCompatActivity() {
 
                 override fun onFailure(t: Throwable) {
                     Log.e("Errorrrrr", t.message.toString())
+                    hideProgressDialog()
                 }
             })
             // END
@@ -236,6 +243,19 @@ class MainActivity : AppCompatActivity() {
                 "No internet connection available.",
                 Toast.LENGTH_SHORT
             ).show()
+        }
+    }
+    private fun showCustomProgressDialog(){
+        mProgressDialog = Dialog(this)
+
+        mProgressDialog!!.setContentView(R.layout.dialog_custome_progress)
+
+        mProgressDialog!!.show()
+    }
+
+    private fun hideProgressDialog(){
+        if(mProgressDialog != null){
+            mProgressDialog!!.dismiss()
         }
     }
 }
